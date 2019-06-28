@@ -39,7 +39,7 @@ from flask import Flask, jsonify
 #################################################
 # Database Setup
 #################################################
-engine = create_engine("sqlite:///Hawaii.sqlite")
+engine = create_engine("sqlite:///Resources/hawaii.sqlite")
 # reflect the database into a new model
 Base = automap_base()
 # reflect the tables
